@@ -1,0 +1,17 @@
+Voice-Activated Emergency Trigger
+The system detects distress keywords like “help” and activates instantly without requiring any manual interaction.
+ 
+ Real-Time location Sharing
+Automatically captures and transmits the user’s live location at the moment of distress.
+
+ Automatic Audio Evidence Recording
+Initiates audio recording immediately after activation to preserve critical evidence.
+
+ Centralized Alert Dashboard
+Displays incoming alerts with user details, location, and status, simulating a real-time response system.
+
+ Multi-Trigger Detection Logic
+Supports activation through repeated keywords or sudden sound intensity changes, improving reliability.
+
+ Hands-Free Operation
+Designed to function even when the user cannot physically access their device.
