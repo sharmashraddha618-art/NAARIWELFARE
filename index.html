@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NAARIWELFARE Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 26px;
+    }
+    .item {
+      margin-bottom: 16px;
+    }
+    .label {
+      font-weight: bold;
+      margin-bottom: 4px;
+      display: block;
+    }
+    .value {
+      padding: 10px;
+      background-color: #f8f8f8;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>NAARIWELFARE Emergency Dashboard</h1>
+    <div class="item">
+      <span class="label">Status</span>
+      <div class="value">{{ status }}</div>
+    </div>
+    <div class="item">
+      <span class="label">Detected Speech</span>
+      <div class="value">{{ speech }}</div>
+    </div>
+    <div class="item">
+      <span class="label">City</span>
+      <div class="value">{{ city }}</div>
+    </div>
+    <div class="item">
+      <span class="label">State</span>
+      <div class="value">{{ state }}</div>
+    </div>
+    <div class="item">
+      <span class="label">Country</span>
+      <div class="value">{{ country }}</div>
+    </div>
+    <div class="item">
+      <span class="label">Coordinates</span>
+      <div class="value">{{ coordinates }}</div>
+    </div>
+    <div class="item">
+  <span class="label">Google Maps</span>
+  <div class="value">
+    <a href="{{ map_link }}" target="_blank">
+      Open Exact Location in Google Maps
+    </a>
+  </div>
+</div>
+  </div>
+</body>
+</html>
