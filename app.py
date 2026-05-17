@@ -1,3 +1,4 @@
+#code for the dashboard
 from flask import Flask, render_template
 from jinja2 import DictLoader
 import speech_recognition as sr
